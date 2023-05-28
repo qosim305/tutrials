@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Tutorialsninja_Automation_suite" class="navigator-link">
+              <span class="suite-name border-failed">Tutorialsninja Automation suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Tutorialsninja_Automation_suite" class="navigator-link ">
+                    <span>C:\eclipse-workspace\tutorialninja\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Tutorialsninja_Automation_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Tutorialsninja_Automation_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Tutorialsninja_Automation_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Tutorialsninja_Automation_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Tutorialsninja_Automation_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Tutorialsninja_Automation_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 4 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Tutorialsninja_Automation_suite" class="hide-methods failed suite-Tutorialsninja_Automation_suite"> (hide)</a> <!-- hide-methods failed suite-Tutorialsninja_Automation_suite -->
+                      <a href="#" panel-name="suite-Tutorialsninja_Automation_suite" class="show-methods failed suite-Tutorialsninja_Automation_suite"> (show)</a> <!-- show-methods failed suite-Tutorialsninja_Automation_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Tutorialsninja_Automation_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Tutorialsninja_Automation_suite" title="testcases.Login" class="method navigator-link" hash-for-method="invalidlogin">invalidlogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Tutorialsninja_Automation_suite" title="testcases.Login" class="method navigator-link" hash-for-method="loginwithoutcredentials">loginwithoutcredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Tutorialsninja_Automation_suite" title="testcases.Register" class="method navigator-link" hash-for-method="verifyRegisteringAccountByprovidingAllFields">verifyRegisteringAccountByprovidingAllFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Tutorialsninja_Automation_suite" title="testcases.Register" class="method navigator-link" hash-for-method="verifyregisteringwithmandatoryfields">verifyregisteringwithmandatoryfields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Tutorialsninja_Automation_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Tutorialsninja_Automation_suite" class="hide-methods passed suite-Tutorialsninja_Automation_suite"> (hide)</a> <!-- hide-methods passed suite-Tutorialsninja_Automation_suite -->
+                      <a href="#" panel-name="suite-Tutorialsninja_Automation_suite" class="show-methods passed suite-Tutorialsninja_Automation_suite"> (show)</a> <!-- show-methods passed suite-Tutorialsninja_Automation_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Tutorialsninja_Automation_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Tutorialsninja_Automation_suite" title="testcases.Register" class="method navigator-link" hash-for-method="VerifyRegisteringAccountWithoutFillingAnyDetails">VerifyRegisteringAccountWithoutFillingAnyDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Tutorialsninja_Automation_suite" title="testcases.search" class="method navigator-link" hash-for-method="VerifySearchWithInvalidProducts">VerifySearchWithInvalidProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Tutorialsninja_Automation_suite" title="testcases.search" class="method navigator-link" hash-for-method="VerifySearchWithoutAnyProduct">VerifySearchWithoutAnyProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Tutorialsninja_Automation_suite" title="testcases.search" class="method navigator-link" hash-for-method="VrifySearchWithaValidProduct">VrifySearchWithaValidProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Tutorialsninja_Automation_suite" title="testcases.Login" class="method navigator-link" hash-for-method="validlogin">validlogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Tutorialsninja_Automation_suite" title="testcases.Register" class="method navigator-link" hash-for-method="verifyRegisteringAccountWithExistingemailAccount">verifyRegisteringAccountWithExistingemailAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Tutorialsninja_Automation_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Tutorialsninja_Automation_suite" class="panel Tutorialsninja_Automation_suite">
+          <div class="suite-Tutorialsninja_Automation_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidlogin">
+                  </a> <!-- invalidlogin -->
+                  <span class="method-name">invalidlogin</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+	at testcases.Login.invalidlogin(Login.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginwithoutcredentials">
+                  </a> <!-- loginwithoutcredentials -->
+                  <span class="method-name">loginwithoutcredentials</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Warning: No match for E-Mail Address and/or Password] but found [Warning: No match for E-Mail Address and/or Password.]
+	at testcases.Login.loginwithoutcredentials(Login.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Tutorialsninja_Automation_suite-class-failed -->
+          <div class="suite-Tutorialsninja_Automation_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.Register</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisteringAccountByprovidingAllFields">
+                  </a> <!-- verifyRegisteringAccountByprovidingAllFields -->
+                  <span class="method-name">verifyRegisteringAccountByprovidingAllFields</span>
+                  <div class="stack-trace">java.lang.AssertionError: Account success page is not displayed expected [Your Account Has Been Created!] but found [Register Account]
+	at testcases.Register.verifyRegisteringAccountByprovidingAllFields(Register.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyregisteringwithmandatoryfields">
+                  </a> <!-- verifyregisteringwithmandatoryfields -->
+                  <span class="method-name">verifyregisteringwithmandatoryfields</span>
+                  <div class="stack-trace">java.lang.AssertionError: Account not created expected [Your Account Has Been Created!] but found [Register Account]
+	at testcases.Register.verifyregisteringwithmandatoryfields(Register.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Tutorialsninja_Automation_suite-class-failed -->
+          <div class="suite-Tutorialsninja_Automation_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validlogin">
+                  </a> <!-- validlogin -->
+                  <span class="method-name">validlogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Tutorialsninja_Automation_suite-class-passed -->
+          <div class="suite-Tutorialsninja_Automation_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.Register</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRegisteringAccountWithoutFillingAnyDetails">
+                  </a> <!-- VerifyRegisteringAccountWithoutFillingAnyDetails -->
+                  <span class="method-name">VerifyRegisteringAccountWithoutFillingAnyDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisteringAccountWithExistingemailAccount">
+                  </a> <!-- verifyRegisteringAccountWithExistingemailAccount -->
+                  <span class="method-name">verifyRegisteringAccountWithExistingemailAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Tutorialsninja_Automation_suite-class-passed -->
+          <div class="suite-Tutorialsninja_Automation_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.search</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearchWithInvalidProducts">
+                  </a> <!-- VerifySearchWithInvalidProducts -->
+                  <span class="method-name">VerifySearchWithInvalidProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearchWithoutAnyProduct">
+                  </a> <!-- VerifySearchWithoutAnyProduct -->
+                  <span class="method-name">VerifySearchWithoutAnyProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VrifySearchWithaValidProduct">
+                  </a> <!-- VrifySearchWithaValidProduct -->
+                  <span class="method-name">VrifySearchWithaValidProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Tutorialsninja_Automation_suite-class-passed -->
+        </div> <!-- panel Tutorialsninja_Automation_suite -->
+        <div panel-name="test-xml-Tutorialsninja_Automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\eclipse-workspace\tutorialninja\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Tutorialsninja Automation suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.Register&quot;/&gt;
+      &lt;class name=&quot;testcases.Login&quot;/&gt;
+      &lt;class name=&quot;testcases.search&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Tutorialsninja Automation suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Tutorialsninja_Automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Tutorialsninja Automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Tutorialsninja_Automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Tutorialsninja Automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Tutorialsninja_Automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Tutorialsninja Automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Tutorialsninja_Automation_suite');
+function tableData_Tutorialsninja_Automation_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginwithoutcredentials')
+data.setCell(0, 2, 'testcases.Login')
+data.setCell(0, 3, 2137);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validlogin')
+data.setCell(1, 2, 'testcases.Login')
+data.setCell(1, 3, 1788);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyRegisteringAccountWithExistingemailAccount')
+data.setCell(2, 2, 'testcases.Register')
+data.setCell(2, 3, 1299);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyRegisteringAccountByprovidingAllFields')
+data.setCell(3, 2, 'testcases.Register')
+data.setCell(3, 3, 1111);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyregisteringwithmandatoryfields')
+data.setCell(4, 2, 'testcases.Register')
+data.setCell(4, 3, 1097);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VrifySearchWithaValidProduct')
+data.setCell(5, 2, 'testcases.search')
+data.setCell(5, 3, 806);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyRegisteringAccountWithoutFillingAnyDetails')
+data.setCell(6, 2, 'testcases.Register')
+data.setCell(6, 3, 655);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifySearchWithoutAnyProduct')
+data.setCell(7, 2, 'testcases.search')
+data.setCell(7, 3, 617);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'invalidlogin')
+data.setCell(8, 2, 'testcases.Login')
+data.setCell(8, 3, 591);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'VerifySearchWithInvalidProducts')
+data.setCell(9, 2, 'testcases.search')
+data.setCell(9, 3, 576);
+window.suiteTableData['Tutorialsninja_Automation_suite']= { tableData: data, tableDiv: 'times-div-Tutorialsninja_Automation_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <div id="times-div-Tutorialsninja_Automation_suite">
+              </div> <!-- times-div-Tutorialsninja_Automation_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Tutorialsninja_Automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Tutorialsninja Automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Tutorialsninja_Automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Tutorialsninja_Automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Register</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyregisteringwithmandatoryfields</span>
+                <span class="method-start">9116 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10217 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">10467 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyRegisteringAccountByprovidingAllFields</span>
+                <span class="method-start">18601 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19713 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">19983 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisteringAccountWithExistingemailAccount</span>
+                <span class="method-start">27486 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28786 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">29053 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyRegisteringAccountWithoutFillingAnyDetails</span>
+                <span class="method-start">36925 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37582 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">37882 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginwithoutcredentials</span>
+                <span class="method-start">43777 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">45916 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validlogin</span>
+                <span class="method-start">51922 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">53712 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">invalidlogin</span>
+                <span class="method-start">59216 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.search</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">59809 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VrifySearchWithaValidProduct</span>
+                <span class="method-start">64787 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">65593 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">65842 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifySearchWithInvalidProducts</span>
+                <span class="method-start">70955 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71532 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">71836 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifySearchWithoutAnyProduct</span>
+                <span class="method-start">77563 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">78181 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
